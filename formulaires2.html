@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formules 8</title>
+    <link rel="stylesheet" href="Css\formulaires2.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Ceci est un formulaire sur la formule 1 ou presque</h1>
+    </header>
+
+    <main>
+      <section>
+        <h2>Savoir qui vous êtes</h2>
+        <div>
+          <form action="">
+            <p>
+              <label for="nom">Commençons par votre nom:</label>
+              <input
+                type="text"
+                id="nom"
+                placeholder="Promis je déconne pas avec..."
+                required
+              />
+            </p>
+            <p>
+              <label for="connaisseur"
+                >Connaissez vous quoique ce soit sur la formule 1 ?
+              </label>
+            </p>
+            <p>
+              <input type="radio" name="oui/non" value="Oui" id="oui" />
+              <label for="oui">Oui, évidement</label>
+              <input type="radio" name="oui/non" value="Non" id="non" />
+              <label for="non">Non, je suis un ignare</label>
+            </p>
+            <p>
+              <label for="fan">Appréciez vous la formule 1 ?</label>
+            </p>
+            <p>
+              <input
+                type="radio"
+                name="Fan"
+                value="pas du tout"
+                id="pas du tout"
+              />
+              <label for="pas du tout">Pas du tout</label>
+              <input type="radio" name="Fan" value="à peine" id="à peine" />
+              <label for="à peine">à peine</label>
+              <input
+                type="radio"
+                name="Fan"
+                value="pas beaucoup"
+                id=" pas beaucoup"
+              />
+              <label for="pas beaucoup">Pas beaucoup</label>
+              <input
+                type="radio"
+                name="Fan"
+                value="oui un peu"
+                id="oui un peu"
+              />
+              <label for="oui un peu">Oui, un peu</label>
+              <input
+                type="radio"
+                name="Fan"
+                value="oui beaucoup"
+                id="oui beaucoup"
+              />
+              <label for="oui beaucoup">Oui beaucoup</label>
+              <input
+                type="radio"
+                name="Fan"
+                value="je bois de l'essence"
+                id="je bois de l'essence"
+              />
+              <label for="je bois de l'essence"
+                >Je bois de l'essence tous les week-end</label
+              >
+            </p>
+            <p>
+              <label for="checkbox"
+                >Dans la liste suivante, quels pilotes de formule 1 connaissez
+                vous ?</label
+              >
+            </p>
+            <p><input type="checkbox" />Alain Prost <input type="checkbox" />Sebastian Vettel <input type="checkbox" />Max Verstappen <input type="checkbox" />Michael Shumacher</p>
+            <p><input type="checkbox" />Sebatien Loeb <input type="checkbox" />Felipe Massa <input type="checkbox" />Kimi Raikonen <input type="checkbox" />Stephan Peter Hansen</p>
+            <p><input type="checkbox" />Charles Leclerc <input type="checkbox" />Niki Lauda <input type="checkbox" />Juan Manuel Fangio <input type="checkbox" />Ayrton Senna</p>
+        
+            <p><input type="checkbox" />Oscar Piastri <input type="checkbox" />Lewis Hamilton <input type="checkbox" />Fernando Alonso <input type="checkbox" />Esteban Ocon</p>
+            <p>
+              <label for="chimie"
+                >Quel est la formule chimique de la fibre de carbonne ?
+                Composant principal des monoplaces de Formules 1</label
+              >
+            </p>
+            <input
+              type="text"
+              id="chimie"
+              placeholder="tellement facile"
+              required
+            />
+
+            <p>
+              <label for="tour"
+                >Combien de tour en moyenne dure un grand prix ?</label
+              >
+            </p>
+            <p><input type="number" min="0" /></p>
+            <p>
+              <input type="submit" value="Envoyez ses réponses" />
+              <input type="reset" value="Fuir comme un lache" />
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

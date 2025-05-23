@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tableaux</title>
+    <link rel="stylesheet" href="Css\tableaux.css" />
+  </head>
+  <body>
+    <table>
+      <!-- Crée le tableau -->
+      <thead>
+        <!-- Crée le haut du tableau -->
+        <tr>
+          <th>Jour</th>
+          <th>Smartphone</th>
+          <th>Tablette</th>
+          <th>Portable</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Lundi</td>
+          <td>2</td>
+          <td>6</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>Mardi</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>Mercredi</td>
+          <td>5</td>
+          <td>1</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>Jeudi</td>
+          <td>12</td>
+          <td>10</td>
+          <td>8</td>
+        </tr>
+        <tr>
+          <td>Vendredi</td>
+          <td>2</td>
+          <td>6</td>
+          <td>7</td>
+        </tr>
+        <tr>
+          <td>Total</td>
+          <td>22</td>
+          <td>26</td>
+          <td>24</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <hr />
+    <!-- rowspan et colspan, modification de l'extention des lignes et des colones -->
+    <table>
+      <tr>
+        <th rowspan="2">Jour</th>
+        <th colspan="2">Matin</th>
+        <th colspan="2">Après-midi</th>
+      </tr>
+      <tr>
+        <th>8h-10h</th>
+        <th>10h-12h</th>
+        <th>13h-15h</th>
+        <th>15h-17h</th>
+      </tr>
+      <tr>
+        <td>Lundi</td>
+        <td>Cours</td>
+        <td>Cours</td>
+        <td>Sport</td>
+        <td>Anglais</td>
+      </tr>
+      <tr>
+        <td>Mardi</td>
+        <td colspan="2">Travail personnel</td>
+        <td colspan="2">Cours intensif</td>
+      </tr>
+    </table>
+  </body>
+</html>

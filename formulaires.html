@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulaires</title>
+  </head>
+  <body>
+    <!-- Balise form qui contiendra tous les éléments de notre formulaire -->
+    <form action="">
+      <label for="nom">Nom</label>
+      <!-- les inputs contiendront les champs du formulaire, il en existe de plusieurs types -->
+      <input
+        type="text"
+        id="nom"
+        placeholder="Surtout n'écrivez pas votre nom"
+        required
+      />
+      <!-- Place holder: le texte en grissé à l'intérieur de la boite -->
+      <label for="email">Email</label>
+      <input
+        type="email"
+        id="email"
+        placeholder="Je ne veux pas votre email"
+        required
+      />
+      <label for="password">Mot de passe</label>
+      <input
+        type="password"
+        id="password"
+        placeholder="le plus simple possible pour qu'on vous le pirate facilement"
+        required
+      />
+      <label for="checkbox">Quelles destinations choisissez vous ?</label>
+      <input type="checkbox" checked /> Italie
+      <!-- checked sert à ce que la box soit coché dès le début -->
+      <input type="checkbox" /> Egypte <input type="checkbox" /> France
+      <input type="checkbox" /> Espagne
+      <label for="fruits">Quel est ton fruit préféré ?</label>
+      <input type="radio" name="fruit" value="Cerise" id="cerise" />
+      <label for="cerise">Cerise</label>
+      <input type="radio" name="fruit" value="Pomme" id="pomme" />
+      <label for="pomme">Pomme</label>
+      <input type="radio" name="fruit" value="Durian" id="durian" />
+      <label for="durian">Durian</label>
+      <input type="radio" name="fruit" value="Groseille" id="groseille" />
+      <label for="groseille">Groseille</label>
+      <br />
+      <label for="textarea">Commentaires</label>
+      <textarea
+        id="textarea"
+        minlength="5"
+        maxlength="30"
+        rows="7"
+        cols="20"
+        style="resize: none"
+        ;
+      ></textarea>
+      <label for="age">A quel point vous êtes vieux ?</label>
+      <input type="number" min="0" required />
+      <input type="submit" value="Soumet toi parasite !" />
+      <input type="reset" value="Allez dégage" />
+    </form>
+  </body>
+</html>

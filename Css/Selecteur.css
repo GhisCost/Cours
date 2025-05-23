@@ -1,0 +1,56 @@
+/*Selecteur Css*/
+/* selecteur généraux (body,p, section)=nom des balises*/
+body {
+  background-color: rgb(153, 16, 43);
+}
+p {
+  background-color: rgb(194, 182, 17);
+  color: rgb(42, 11, 219);
+}
+h1 {
+  color: darkgoldenrod;
+}
+
+/*sélecteur plus ciblés: premier enfant, dernier enfant, nthchild: on indique directement le numéro de l'élément à ciblé, even/odd=pair/impair*/
+
+section > p:nth-child(odd) {
+  background-color: coral;
+}
+
+section > p:first-child {
+  background-color: rgb(226, 43, 202);
+}
+
+section > p:last-child {
+  background-color: darkgreen;
+}
+
+section > p:nth-child(2) {
+  background-color: darkslategray;
+}
+
+section > p:nth-child(even) {
+  background-color: rgb(0, 102, 128);
+}
+
+/* Priorité à la ligne placée le plus bas */
+/* Priorité à la commande la mieux ciblée */
+/* la virgule sert à mettre plusieurs éléments qui vont recevoir le même css */
+
+/* ID, Class */
+/* #=id */
+#prout {
+  background-color: rgb(20, 220, 255);
+  height: 150px;
+  width: 300px;
+}
+/* .=class */
+.violet {
+  color: rgb(0, 38, 255);
+  background-color: darkgray;
+}
+/* la class est moins prioritaire que le nth-child */
+
+.racourci {
+  width: 150px;
+}
