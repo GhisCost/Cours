@@ -1,0 +1,36 @@
+body {
+  margin: 0; /*Espacement extérieur à 0 */
+  padding: 0; /*Espacement intérieur à 0 */
+  background: #2A7B9B;
+background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 48%, rgba(237, 221, 83, 1) 100%);
+}
+
+/* Conteneur principale */
+.container {
+  width: 100%; /*largeur de l'élément à l'extérieur de la page*/
+  margin: 20px; /* Une marge extérieur de tous les côtés de 20px*/
+  overflow: hidden; /* Cache ce qui dépasse de l'élément*/
+}
+
+/*Colonne principale*/
+
+.main {
+  width: 70%; /*Largeur de la div main de 70%*/
+  float: left; /* Permet de faire flotter l'élément à gauche de la page */
+  background-color: aqua;
+  /* Equivalent à 20px 20px 20px 20px*/
+}
+
+/*barre laterale flotante*/
+.sidebar {
+  width: 30%; /*Complément de de main*/
+  float: right;
+  background-image: url(https://www.pavillonfrance.fr/sites/default/files/styles/virtualstand/public/bar.png?itok=KzuDxrNx);
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+/* Clear pour remettre tous les éléments "normaux", les suivants reviendront en dessous */
+.clear {
+  clear: both;
+}
+
