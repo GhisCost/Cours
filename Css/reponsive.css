@@ -1,0 +1,150 @@
+.container {
+  margin: 0 auto;
+}
+
+div {
+  margin: 0;
+}
+
+header {
+  background-color: rgb(129, 40, 40);
+  height: 100px;
+}
+nav {
+  background-color: darkblue;
+  height: 50px;
+  padding-left: 2em;
+  line-height: 45px;
+}
+
+nav a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+footer {
+  background-color: palevioletred;
+  height: 100px;
+}
+
+nav li:last-child {
+  border-right: none;
+}
+
+section div {
+  width: 46%;
+  height: 450px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  border-right: 1px solid #fff;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 15px;
+  padding-bottom: 15px; /*padding: 15px 0;*/
+}
+
+.zone1,
+.zone4 {
+  background: linear-gradient(to left, #40a497, #6840a4);
+}
+
+.zone2,
+.zone3 {
+  background: linear-gradient(to left, #6840a4, #40a497);
+}
+
+main {
+  border: 1px solid black;
+}
+
+.zone3,
+.zone4 {
+  margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+  header {
+    background-color: green;
+  }
+
+  section div {
+    width: 80%;
+  }
+  section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul {
+    display: block;
+    padding: 0;
+  }
+
+  nav ul a {
+    font-size: 16px;
+  }
+
+  nav ul li {
+    border: none;
+  }
+
+  nav {
+    height: 150px;
+    line-height: 30px;
+  }
+
+  .zone2 {
+    margin-top: 15px;
+    background: radial-gradient(circle,rgba(8, 2, 74, 1) 0%, rgba(9, 37, 121, 1) 34%, rgba(2, 179, 93, 1) 100%);
+  }
+
+  footer {
+    background-color: green;
+  }
+}
+
+@media (min-width:992px) and (max-width:1200px){
+
+    .container {
+        width: 90%;
+    }
+
+    section {
+        justify-content: space-between;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    header, footer {
+        background-color: #d46d19;
+    }
+
+    section div {
+        width:780px;
+    }
+
+    .zone2, .zone3 {
+        background: linear-gradient(to right,#f479d8, #05116c);
+    }
+
+    .zone1, .zone4 {
+        background: linear-gradient(to right, grey, orange);
+    }
+
+}

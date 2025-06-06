@@ -1,0 +1,32 @@
+body {
+  width: 80%; /*largeur de 80% de son parent*/
+  margin: 10px auto; /* margin: marge extérieur de l'élément (il pouse ce qu'il y a autour)*/
+  font-family: cursive;
+}
+
+#contenu {
+  background-color: rgb(163, 26, 26);
+  border: 2px solid black;
+}
+
+header,
+footer {
+  height: 80px; /*hauteur de l'éléments, par défaut en auto*/
+  background-color: #8e3557; /* code couleur en hexadécimal, plusieur façon disponible : 
+    nom de la couleur, le rgb ou l'héxadécimal avec # devant*/
+  color: white; /*color: couleur de texte uniquement*/
+  text-align: center;
+  padding-top: 6px; /* padding: marges intérieures d'un élément (on pousse l'éléments de l'intérieur)*/
+}
+
+nav {height: 40px;
+background-color: #4a1a2c;
+color: #fff;
+padding-left: 20px;
+padding-top: 6px;
+}
+
+section {border: 20px solid #060605;
+background-color: #e6e2af;
+height: 500px;
+text-align: center;}
