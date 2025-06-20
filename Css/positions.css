@@ -1,0 +1,60 @@
+div {
+  width: 100px;
+  height: 100px;
+  background-color: darkblue;
+  margin: 10px;
+  color: antiquewhite;
+
+  /* 1ere position */
+  /*position par defaut de chaque élément, il n'est pas impacté par le changement de position (top, right, bottom, left)*/
+  /* position: static; */
+
+  /* 2eme position */
+  /* Position relative: se positionne par rapport à sa position initiale, doit être positionner "à la main" (top,rigth,bottom,left) sinon elle ne bouge pas */
+  /* position: relative;
+    left: 150px: se déplacera de 150 pixels vers la droite */
+}
+
+.adada {
+  /* height: 400px;
+  width: 400px;
+  margin: auto;
+  On met notre div en position relative (se place par rapport à elle même)
+  position: relative; */
+}
+/* 3eme position */
+/* Absolute: se place par rapport à son premier ancêtre avec une position définie (relative, absolute, fixed,sticky) si aucun ancêtre placé, il se place par rapport au body */
+.adada p {
+  /* Va se placer par rapport à .adada qui a une position relative (fonctionne avec tous les ancêtres qui ont une position (relative, absolute, fixed, sticky) */
+  /* position: absolute;
+  top: 350px;
+  right: 0;*/
+}
+
+/* 4eme position: Fixed 
+
+L'élément sera fixé par rapport à la fenêtre du navigateur, on peut le bouger avec les top, rigth, left, bottom*/
+
+/* h1 {
+    position: fixed;
+    bottom: 0;
+    top: 0;
+}
+*/
+body {
+  height: 5000px;
+}
+
+/* 5eme position: Sticky */
+/* Hybride entre relative et fixed */
+/* l'élément reste dans le flux (à sa place) jusqu'à atteindre une distance définie (Exemple: top:0), puis il se fixe à cet endroit tant que son conteneur est visible */
+
+#collant {
+  height: 800px;
+  width: 150px;
+}
+
+h1 {
+  position: sticky;
+  top: 0;
+}
