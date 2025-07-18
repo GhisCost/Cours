@@ -12,13 +12,13 @@ console.log(nb1 == nb2); // Retournera TRUE (c'est vrai que les valeurs de nb1 e
 // L'opérateur de comparaison stricte === signifie 'égal à' 
 // À la différence de ==, il vérifie également le type de la variable ET sa valeur
 
-console.log(nb1 == nb2); // Retournera FALSE (nb1 est de type Number et nb2 de type String)
+console.log(nb1 === nb2); // Retournera FALSE (nb1 est de type Number et nb2 de type String)
 
 // L'opérateur différent != signifi 'Différent de ... EN VALEUR'
 
 console.log(nb1 != nb2); //Retournera FALSE (les valeurs ne sont pas différentes)
 
-// L'opérateur strictement différent !== signifie ' Strictement différent de ... en Type et Vakeurs'
+// L'opérateur strictement différent !== signifie ' Strictement différent de ... en Type et Valeurs'
 
 console.log(nb1 !== nb2); // Retournera TRUE (les valeurs sont les mémes mais les types sont différents)
 

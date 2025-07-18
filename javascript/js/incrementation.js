@@ -4,7 +4,7 @@
 
 let nb1 = 1;
 
-nb1 = nb1 + 1; // Fonctionne avec 1 ou tout autre chiffre mais n'est pas une incrémentation si c'est un autre chiffre qu'1
+nb1 = nb1 + 1; // Fonctionne avec 1 ou tout autre chiffre mais n'est pas une incrémentation si c'est un autre chiffre que 1
 nb1 += 100, // nb1 = nb1 + 100;
 console.log(nb1);
 

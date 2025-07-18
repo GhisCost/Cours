@@ -7,7 +7,7 @@
 //   /* Code à éxecture*/
 // }
 
-// // EXEMPLE :
+// EXEMPLE :
 
 // let nb1 = 10;
 
@@ -59,7 +59,7 @@
 //     str = "Je m'appelle Ghislain";
 //     break;
 //   default:
-//     str = "j n'ai pas de prénom";
+//     str = "je n'ai pas de prénom";
 //     break;
 // }
 

@@ -13,7 +13,7 @@ let nb2 = 35;
 let resultatAddition = nb1 + nb2;
 
 console.log(nb1 + nb2); // Affichera seulement le resultat des 2 variables
-console.log(resultatAddition); // Affichera le resultat des 2 variables nb1+ nb2 STOOCKEES dans la variable resultatAddition
+console.log(resultatAddition); // Affichera le resultat des 2 variables nb1 + nb2 STOOCKEES dans la variable resultatAddition
 
 resultatAddition = resultatAddition + 10; // la valeur sera égale à elle même + 10
 
@@ -36,7 +36,7 @@ console.log(resultatDivision);
 
 //Modulo ( % )
 // -- Le modulo retourne le reste d'un division
-// Il multiplie la partie entière du resltat de la division avec le second nombre de la division et prend l'écart entre cette multiplication et le premier chiffre de la division
+// Il multiplie la partie entière du resultat de la division avec le second nombre de la division et prend l'écart entre cette multiplication et le premier chiffre de la division
 
 let resultatModulo = nb1 % nb2;
 console.log(resultatModulo);
