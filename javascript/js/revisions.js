@@ -74,3 +74,27 @@ Concatenation :
 //   console.log (playerScoreSpanElement)
 //   computerScoreSpanElement = computerScore;
 // };
+// Fonctions 
+
+// function tvaCalcul(prixHT, tva) {
+
+//     if (tva == "null" || prixHT <= 0) {
+//         return null;
+//     }
+
+//     let prixTTC = prixHT + prixHT * tva / 100;
+
+//     return prixTTC;
+// }
+
+// document.querySelector('form').addEventListener('submit', function (event) {
+//     event.preventDefault();
+
+//     let prix = parseInt(this.querySelector('#prix').value);
+//     let tva = parseInt(this.querySelector('#tva').value);
+
+//     let prixAvecTaxe = tvaCalcul(prix, tva);
+
+//     console.log(prixAvecTaxe);
+
+// })

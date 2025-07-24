@@ -61,7 +61,7 @@
 
 //1.Fonction sans paramètres sans valeur de retour
 
-// On laisse les paramètre et la fonction ne d'aucun return
+// On laisse les paramètres vide et la fonction ne dispose d'aucun return
 
 function additionSansVSansR(){
    document.writeln("<p>"+ (10 + 2) + "</p>");
@@ -71,7 +71,7 @@ function additionSansVSansR(){
 
 additionSansVSansR()
 
-// 2.Fonction avec paramèter sans valeur de retour
+// 2.Fonction avec paramètre sans valeur de retour
 
 // On rempli le ou les paramètres et la fonction ne dispose d'aucun return
 
