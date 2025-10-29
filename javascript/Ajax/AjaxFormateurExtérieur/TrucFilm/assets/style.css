@@ -22,9 +22,13 @@ h1{
     text-align: center;
     padding: 35px;
     color: #E50914;
-    font-family: "Sansation", sans-serif;;
+    font-family: "Sansation", sans-serif;
+    
 }
 
+a {
+    text-decoration: none;
+}
 
 
 /* TODO : Ajouter les styles pour le formulaire de recherche */
@@ -90,12 +94,80 @@ color: #141414;
 
 .resume{
     color: aliceblue;
+    text-align: center;
 }
 
+#footer{
+    text-align: center;
+    color: rgb(172, 173, 173);
+    margin-top: 55px;
+}
 
+.hidden {
+    display:none;
+}
 
+.modal{
+    position:fixed;
+    width: 100%;
+    top: 0;
+    left:0;
+    z-index:5;
+}
 
-/* bidule de chargement*/
+.modal-overlay{
+    position: absolute;
+}
+
+.modal-content{
+    position: absolute;
+    width: 70%;
+    margin: auto;
+    z-index:6;
+    top: 20vh;
+    left: 15%;
+    background-color: #141414;
+    padding: 25px 50px ;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px aliceblue;
+}
+
+.close-btn{
+ position: absolute;
+ top: 10px;
+ right: 10px;
+ background-color: #141414;
+ color: #E50914;
+ padding: 5px;
+ border-radius: 5px;
+ border: #E50914 1px solid;
+}
+
+.note, .date {
+    color: aliceblue;
+}
+
+.modal-content h2{
+    text-align: center;
+    color: #E50914;
+    font-size: 2.4em;
+    margin: 25px;
+}
+
+.resumeModal {
+    color: aliceblue;
+    text-align: center;
+    margin: 15px;
+}
+
+.noteDate{
+    display: flex;
+    gap: 15px;
+    justify-content: end;
+    align-items: center;
+}
+
+/* image de chargement*/
 .loader {
   display: inline-grid;
   width: 80px;

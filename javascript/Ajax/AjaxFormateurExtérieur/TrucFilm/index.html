@@ -1,30 +1,43 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FlouRigide - Votre Mini Netflix</title>
-  <link rel="stylesheet" href="./assets/style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FlouRigide - Votre Mini Netflix</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body>
     <div class="corps">
-  <header>
-    <h1>🎬 FlouRigide</h1>
-    
+      <header>
+        <a href="">
+          <h1>🎬 FlouRigide</h1>
+        </a>
 
-    <form id="formRecherche" action="">
-        <input id="barreRecherche" type="search" autofocus>
-        <input id="submit" type="submit" value="Rechercher un film">
-    </form>
+        <form id="formRecherche" action="">
+          <input id="barreRecherche" type="search" autofocus />
+          <input id="submit" type="submit" value="Rechercher un film" />
+        </form>
+      </header>
 
-  </header>
+      <main>
+        <div id="movies-grid"></div>
+      </main>
 
-  <main>
-    <div id="movies-grid">
-      
+      <footer>
+        <p id="footer">
+          Données fournies par <a href="https://www.themoviedb.org">TMDB</a>
+        </p>
+      </footer>
     </div>
-  </main>
-</div>
-  <script src="./assets/structure.js"></script>
-</body>
+
+    <div id="modal" class="modal hidden">
+      <div class="modal-overlay"></div>
+      <div class="modal-content">
+        <button id="close-modal" class="close-btn">&times;</button>
+        <div id="modal-body"></div>
+      </div>
+    </div>
+
+    <script src="./assets/structure.js"></script>
+  </body>
 </html>
