@@ -1,0 +1,15 @@
+-mkdir mon_dossier : Créer un dossier "mon_dossier"
+
+-cd Dossier_cible : Se déplacer vers le dossier ciblé pour aller au parent faire cd .. ou ../../..
+
+-pwd : voir le chemin où je me situe
+
+-ls: lister ce qui est dans mon dossier
+
+-touch monFichier: créer un fichier monFichier
+
+-mv: move/déplacer un élément (fichier ou dossier)
+
+-rm monFichier : supprime un fichier/ OU rm -r monDossier supprimer mon dossier
+
+-cp: copier->coller vers un autre endroit, ex: cp abc Documents/abc copie abc vers Documents/abc 

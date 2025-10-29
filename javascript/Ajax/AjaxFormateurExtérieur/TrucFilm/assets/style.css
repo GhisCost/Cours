@@ -92,10 +92,10 @@ color: #141414;
     color: aliceblue;
 }
 
-/* TODO : Ajouter les styles pour les cards de films */
 
 
-/* HTML: <div class="loader"></div> */
+
+/* bidule de chargement*/
 .loader {
   display: inline-grid;
   width: 80px;

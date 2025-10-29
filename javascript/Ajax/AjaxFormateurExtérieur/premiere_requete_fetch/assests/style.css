@@ -1,0 +1,92 @@
+h1 {
+  color: coral;
+  text-align: center;
+}
+
+.div-img {
+  margin: auto;
+  width: 50%;
+}
+
+.div-img > img {
+  width: 100%;
+  max-height: 70vh;
+  border-radius: 5px;
+}
+
+.btn-text {
+  margin: auto;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+#btn{
+  margin-top: 30px;
+  background-color: coral;
+  border: 3px solid coral;
+  border-radius: 5px;
+  color: aliceblue;
+  padding: 15px;
+}
+
+#btn4{
+  margin-top: 30px;
+  background-color: coral;
+  border: 3px solid coral;
+  border-radius: 5px;
+  color: aliceblue;
+  padding: 15px;
+}
+
+#div-quatrechat {
+  flex-wrap: wrap;
+  gap: 35px;
+  width: 80%;
+  margin: auto;
+  justify-content: space-evenly;
+}
+
+#div-quatrechat > div {
+  width: 45%;
+}
+
+#div-quatrechat > div > img {
+  width: 100%;
+  max-height: 45vh;
+  border-radius: 5px;
+}
+
+.cacher {
+  display: none;
+}
+
+.montrer {
+  display: flex;
+}
+
+.apparait {
+  display: block;
+}
+
+.disparait {
+  display: none;
+}
+
+.btnNav {
+  margin: 20px;
+  border: none;
+  background-color: rgb(172, 113, 92);
+  color: aliceblue;
+  padding: 5px 20px;
+  font-size: 1.5em;
+}
+
+nav {
+  display: flex;
+  margin: 35px auto;
+  width: 50%;
+  justify-content: space-evenly;
+  background-color: rgb(172, 113, 92);
+  border-radius: 5px;
+}
